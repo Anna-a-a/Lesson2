@@ -71,7 +71,11 @@ int taskEight(){
     int E;
     cout<<"Введите E";
     cin>>E;
-    return 0;
+    int mouse , cat, dog, girl, gma, gdad = 1;
+    cout << "мышек нужно" << gdad + gma + girl + dog + cat + mouse;
+    for (int i=0; i < 25; i++){
+        cout<<endl;
+    }
 }
 
 int taskSeven(){
@@ -85,10 +89,10 @@ int taskSeven(){
 }
 
 int main() {
-    //taskTwelve();
-    //taskEleven();
-    //taskTen();
-    //taskNine();
-    //taskEight();
+    taskTwelve();
+    taskEleven();
+    taskTen();
+    taskNine();
+    taskEight();
     taskSeven();
 }
